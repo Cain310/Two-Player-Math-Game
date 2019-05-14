@@ -7,4 +7,3 @@ class Rand_Int
   end
 
 end
-  # attr_accessor :answer, :print

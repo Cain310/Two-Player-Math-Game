@@ -27,7 +27,6 @@ class Game
     else
       puts "CORRECT"
       puts "Next Player"
-      # switch_player
     end
     if @player1.lives > 0 && @player2.lives > 0
       switch_player
