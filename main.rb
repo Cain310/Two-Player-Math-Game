@@ -1,9 +1,11 @@
 require 'players'
-require 'questions'
+require 'Integer'
 require 'game'
 
 player1 = PLayer.new('player1')
 player2 = Player.new('player2')
+integer = Integer.new
 
-
-# require_relative 'turn' ---may not use
+new_game = Game.new(player1, player2, integer)
+new_game.start
+# require_relative 'turn'
