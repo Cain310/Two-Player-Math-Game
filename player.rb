@@ -4,13 +4,13 @@ class Player
   def initialize(name)
 
   @name = name
-  # @lives = 3
+  @lives = 3
 
   end
 
-  # def lost_life
+  def lost_life
 
-  # @lives -= 1
+  @lives -= 1
 
-  # end
+  end
 end
