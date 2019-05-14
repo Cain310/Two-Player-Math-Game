@@ -1,4 +1,4 @@
-class Integer
+class Rand_Int
 
   def get_integer
 
